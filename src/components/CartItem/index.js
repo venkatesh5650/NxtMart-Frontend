@@ -37,7 +37,7 @@ const CartItem = ({itemDetails, Increase, Decrease}) => {
           </button>
         </div>
       </div>
-      <hr />
+      <hr className="horline" />
     </div>
   )
 }

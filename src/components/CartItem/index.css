@@ -1,12 +1,14 @@
 .CartItemContainer {
   padding: 0;
   margin: 0;
+  width: 90%;
 }
 
 .ItemContainer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -82,4 +84,8 @@
   font-size: 30px;
   font-weight: 500;
   color: green;
+}
+
+.horline {
+  width: 80%;
 }
