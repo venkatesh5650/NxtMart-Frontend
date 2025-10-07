@@ -23,6 +23,8 @@
 .ItemDetails {
   display: flex;
   align-items: center;
+  margin:0;
+  padding:0;
 }
 
 @media (min-width: 768px) {
@@ -34,8 +36,8 @@
 }
 
 .ItemImg {
-  height: 80px;
-  width: 80px;
+  height: 74px;
+  width: 74px;
   border-radius: 15px;
   margin-right: 20px;
 }
@@ -50,7 +52,7 @@
 }
 
 .ItemName {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   width: 120px;
 }
@@ -131,5 +133,5 @@
 }
 
 .horline {
-  width: 80%;
+  width: 100%;
 }
