@@ -1,0 +1,125 @@
+.HeaderContainer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .HeaderContainer {
+    background-color: #f2f4f7;
+    display: flex;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 17vh;
+    width: 100vw;
+  }
+}
+
+.Logo {
+  margin-left: 40px;
+  width: 119px;
+  height: 50px;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .Logo {
+    height: 85px;
+    width: 110px;
+  }
+}
+
+.NavContainer {
+  display: flex;
+}
+
+.NavItem {
+  font-size: 18px;
+  font-weight: 500;
+  color: green;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.activeNavItem {
+  font-size: 18px;
+  font-weight: 500;
+  color: green;
+  list-style-type: none;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+.NavButton {
+  font-size: 18px;
+  font-weight: 600;
+  color: green;
+  list-style-type: none;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ========================= */
+/*   Mobile Bottom Nav Bar   */
+/* ========================= */
+.MobileNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #e0e0e0;
+  z-index: 10;
+}
+
+.mobile-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: #4b5563;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-link span {
+  font-size: 12px;
+}
+
+.mobile-link.active {
+  color: green;
+  font-weight: 600;
+}
+
+/* Hide desktop header on mobile */
+@media (max-width: 767px) {
+  .HeaderContainer {
+    display: block;
+  }
+  .DesktopNav {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .DesktopNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+}
+
+/* Hide mobile nav on larger screens */
+@media (min-width: 768px) {
+  .MobileNav {
+    display: none;
+  }
+}

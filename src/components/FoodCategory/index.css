@@ -1,0 +1,25 @@
+.categoryContainer {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .categoryContainer {
+    margin-left: 25px;
+  }
+}
+
+.categoryName {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.productsContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}

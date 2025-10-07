@@ -1,0 +1,57 @@
+.CartItemContainer {
+  width: 90vw;
+}
+
+.ItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ItemDetails {
+  display: flex;
+  align-items: center;
+}
+
+.ItemImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.ItemName {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ItemPrice {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.Controller {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  justify-content: space-around;
+  text-align: flex-end;
+}
+.ControllIcon {
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.Quantity {
+  font-size: 30px;
+  font-weight: 500;
+  color: green;
+}
