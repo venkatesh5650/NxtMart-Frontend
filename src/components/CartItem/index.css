@@ -1,14 +1,14 @@
 .CartItemContainer {
-  width: 350px;
   padding: 0;
   margin: 0;
+  width: 300px;
 }
 
 .ItemContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  width: 350px;
+  width: 300px;
 }
 
 @media (min-width: 768px) {
@@ -68,7 +68,7 @@
   border-radius: 10px;
   justify-content: space-around;
   text-align: flex-end;
-  margin-left:0;
+  margin-left: 0;
 }
 .ControllIcon {
   font-size: 30px;
