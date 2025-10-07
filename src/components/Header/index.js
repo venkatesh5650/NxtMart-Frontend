@@ -22,6 +22,7 @@ const Header = () => {
 
   const onClickLogout = () => {
     Cookies.remove('jwt_token')
+    localStorage.removeItem('cartData')
     history.replace('/login')
   }
 
