@@ -11,7 +11,7 @@ const CartItem = ({itemDetails, Increase, Decrease}) => {
           <div>
             <p className="ItemName">{name}</p>
             <p>{weight}</p>
-            <p className="ItemPrice">{price}</p>
+            <p className="ItemPrice">₹{price}</p>
           </div>
         </div>
         <div className="Controller">
