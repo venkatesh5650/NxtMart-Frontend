@@ -1,14 +1,14 @@
 .CartItemContainer {
   padding: 0;
   margin: 0;
-  width: 400px;
+  width: 350px;
 }
 
 .ItemContainer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 400px;
+  width: 350px;
 }
 
 @media (min-width: 768px) {
