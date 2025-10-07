@@ -54,7 +54,7 @@
   display: flex;
   flex-wrap: wrap;
   border: 1px solid #d9dedb;
-  width: 100vw;
+  width: 90vw;
   border-radius: 15px;
   padding: 15px;
   box-sizing: border-box;
@@ -88,7 +88,7 @@
 }
 
 .BillContainer {
-  width: 100vw;
+  min-width: 80vw;
   display: flex;
   justify-content: flex-end;
   text-align: end;
@@ -113,7 +113,7 @@
   font-size: 16px;
   color: black;
   font-weight: bold;
-  width: 160px;
+ 
 }
 
 @media (min-width: 768px) {
@@ -121,7 +121,6 @@
     font-size: 30px;
     color: black;
     font-weight: bold;
-    width:200px;
   }
 }
 
