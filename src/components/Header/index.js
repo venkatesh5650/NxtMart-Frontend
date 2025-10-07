@@ -48,11 +48,11 @@ const Header = () => {
 
         <ul className="NavContainer">
           {tabConstants.map(eachTab => (
-            <li
-              key={eachTab.tabId}
-              className={activeTab === eachTab.tabId ? 'active' : ''}
-            >
+            <li key={eachTab.tabId}>
               <Link
+                className={
+                  activeTab === eachTab.tabId ? 'activeNavItems' : 'NavItem'
+                }
                 to={eachTab.direction}
                 onClick={() => setActiveTab(eachTab.tabId)}
               >

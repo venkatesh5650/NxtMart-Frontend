@@ -30,34 +30,50 @@
 
 .NavContainer {
   display: flex;
+  width: 350px;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 .NavItem {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
   color: green;
   list-style-type: none;
-  margin-right: 20px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
-.activeNavItem {
-  font-size: 18px;
-  font-weight: 500;
+.activeNavItems {
+  font-size: 20px;
+  font-weight: bold;
   color: green;
   list-style-type: none;
   margin-right: 20px;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.activeNavItem {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  list-style-type: none;
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .NavButton {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: bold;
   color: green;
   list-style-type: none;
   margin-right: 20px;
   border: none;
   outline: none;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 /* ========================= */

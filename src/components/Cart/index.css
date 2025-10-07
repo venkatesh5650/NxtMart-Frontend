@@ -3,6 +3,17 @@
   background-color: white;
   max-width: 100vw;
   overflow-x: hidden;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .CartContainer {
+    min-height: 100vh;
+    background-color: white;
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding: 1px;
+  }
 }
 
 @media (min-width: 678px) {
@@ -121,7 +132,8 @@
   border-radius: 12px;
   color: white;
   padding: 10px;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
   width: 100px;
   cursor: pointer;
 }

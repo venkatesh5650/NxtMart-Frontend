@@ -22,6 +22,10 @@ const Cart = () => {
     localStorage.removeItem('cartData')
   }
 
+  const BackToHome = () => {
+    history.replace('/')
+  }
+
   const updateLocalStorage = updatedCart => {
     setCartlist(updatedCart)
     localStorage.setItem('cartData', JSON.stringify(updatedCart))
@@ -100,7 +104,7 @@ const Cart = () => {
         <div>
           {cartLength > 0 && (
             <div className="checkoutHeader">
-              <button type="button">
+              <button type="button" onClick={BackToHome}>
                 <img
                   src="https://res.cloudinary.com/dpiu7mohv/image/upload/v1759229602/arrow-left_bg5p82.png"
                   className="logoutArrow"
