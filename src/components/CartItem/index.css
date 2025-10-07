@@ -34,10 +34,19 @@
 }
 
 .ItemImg {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 15px;
   margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .ItemImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
 }
 
 .ItemName {
@@ -63,16 +72,31 @@
   display: flex;
   align-items: center;
   border: 1px solid green;
-  width: 80px;
-  height: 40px;
-  border-radius: 10px;
+  width: 60px;
+  height: 25px;
+  border-radius: 8px;
   justify-content: space-around;
   text-align: flex-end;
   margin-left: 0;
 }
+
+@media (min-width: 768px) {
+  .Controller {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: space-around;
+    text-align: flex-end;
+    margin-left: 0;
+  }
+}
+
 .ControllIcon {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   color: green;
   border: none;
   outline: none;
@@ -80,10 +104,30 @@
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .ControllIcon {
+    font-size: 30px;
+    font-weight: 600;
+    color: green;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+
 .Quantity {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: green;
+}
+
+@media (min-width: 768px) {
+  .Quantity {
+    font-size: 30px;
+    font-weight: 500;
+    color: green;
+  }
 }
 
 .horline {
