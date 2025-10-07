@@ -1,5 +1,5 @@
 .productItem {
-  min-width:140px;
+  min-width: 140px;
   max-width: 180px;
   height: 187;
   gap: 16px;
@@ -23,7 +23,8 @@
     padding: 17px;
     min-width: 220px;
     max-height: 285px; */
-    width: 287;
+    min-width: 180px;
+    max-width:230px;
     height: 263;
     gap: 16px;
     opacity: 1;

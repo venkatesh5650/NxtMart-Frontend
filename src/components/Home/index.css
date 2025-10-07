@@ -24,9 +24,10 @@
 }
 
 .CategorySection {
-  /* background-color: #fff;
+  background-color: #fff;
   position: sticky;
-  height:20vh; */
+  height: 10vh;
+  top: 0;
 
   /* position: sticky;
     /* width: 20%; */
